@@ -4,7 +4,3 @@
 
 Ola mundo
 
-Socorro world!
-
-git vei podi
-
