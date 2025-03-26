@@ -1,6 +1,3 @@
 # DEV_WEBIOS_2025_01
 
-!hello world!
-
-Ola mundo
-
+Desenvolvimento web 2025 turma N2 Primeiro semestre.
