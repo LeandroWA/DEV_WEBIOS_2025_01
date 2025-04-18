@@ -3,15 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML06-ExercicioCasa</title>
+    <title>HTML06-Formulario</title>
 
+        <style>
+            
+        </style>
 </head>
 <body>
     <header><h1><i> Formularios </i></h1></header>
 
     <form action="">
 
-        <input type="button" value="Clique aqui">
+        <label for=""><b>Nome:</b></label>
+        <input type="text" placeholder="Insira o nome do usuario" class="inpPlace">
+        
+        <br><br>
+        <caption><b>Cidade</b></caption> <br>
+        <input type="radio" name="Estado"> <label for=""> São Paulo</label><br>
+        <input type="radio" name="Estado"> <label for=""> Grande São Paulo</label><br>
+        <input type="radio" name="Estado"> <label for=""> Campinas</label><br>
+        <br>
+        
+        
+        <caption><b>Generos musicais</b></caption><br>
+
+        <input type="checkbox"> <label for="">Funk</label>
+        <br>
+        <input type="checkbox"> <label for="">Pagode</label>
+        <br>
+        <input type="checkbox"> <label for="">Metal</label>
+        <br>
+        <input type="checkbox"> <label for="">Trap</label>
+        <br><br>
+        <caption><b>Distancia da Morena</b></caption><br>
+        0 KM<input type="range">100 KM <br><br>
+
+
+        <caption><b>Cores</b></caption><br>
+
+        <select name="" id="">
+            <option value="Cores">Selecione</option>
+            <option value="Cores">Amarelo</option>
+            <option value="Cores">Branco</option>
+            <option value="Cores">Vermelho</option>
+        </select>
+
+        <br><br><br>
+
+        <caption><b>Cidades</b></caption><br>
+
+        <input type="text" list="busca">
+        <datalist id="busca">
+            
+            <option value="Santos"></option>
+            <option value="Santo andre"></option>
+            <option value="Santo Antonio"></option>
+            <option value="Campinas"></option>
+
+        </datalist>
+
+        <br><br>
+
+        <input type="button" value="Enviar">
 
     </form>
 </body>
