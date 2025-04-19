@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 06</title>
+     </head>
+<body>
+
+    <header><h1><i>Formulário de Opinião Anônima</i></h1></header>
+
+    <form action="/action_page.php" method="get">
+
+        <fieldset id="Informações da Empresa">
+            <legend>Informações da Empresa</legend>
+        <!-- Nome da empresa -->
+
+        <label for="empresa">Nome da Empresa:</label><br>
+        <input type="text"><br><br>
+
+        <!-- Entrada da empresa -->
+
+        <label for="Dataentrada">Data de entrada na empresa:</label><br>
+        <input type="date"><br><br>
+
+        <!-- Quantidade de funcionarios -->
+
+        <label for="funcionarios">Quantidade de funcionarios:</label><br>
+        <input type="number"><br><br>
+
+        <!-- Salario -->
+
+        <label for="salario">Salário (R$):</label><br>
+        <input type="number">
+    </fieldset>
+
+    <fieldset>
+        <!-- Ainda na empresa -->
+        <legend>Situação Atual</legend>
+
+        <label>Você ainda está na empresa?</label><br>
+        <input type="radio" id="sim" name="AindaNaEmpresa" value="Sim">
+        <label for="sim">Sim</label>
+        <br>
+        <input type="radio" id="não" name="AindaNaEmpresa" value="Não">
+        <label for="Não">Não</label><br><br>
+
+        <!-- contratação -->
+        <label>Tipo de contratação:</label><br>
+        <input type="radio" id="pj" name="contratação"
+        value="pj">
+        <label for="pj">PJ</label><br>
+        <input type="radio" id="clt" name="contratação"
+        value="clt">
+        <label for="clt">CLT</label>
+    </fieldset>
+
+    <fieldset>
+        <!-- Benefícios -->
+        <legend>Benefícios Recebidos</legend>
+        <p>Selecione os benefícios:</p>
+        <input type="checkbox" > <label for=""> Vale Alimentação</label><br>
+        <input type="checkbox" > <label for=""> Vale Refeição</label><br>
+        <input type="checkbox" > <label for=""> Vale Transporte</label><br>
+        <input type="checkbox" > <label for=""> Academias</label><br>
+        <input type="checkbox" > <label for=""> PLR</label><br>
+        <input type="checkbox" > <label for=""> Plano de Saúde</label><br>
+        <input type="checkbox" > <label for=""> Plano Odontológico</label><br>
+        <input type="checkbox" > <label for=""> Cesta Básica</label><br>
+        <input type="checkbox" > <label for=""> Day Off</label><br>
+        <input type="checkbox" > <label for=""> Bolsa de Estudos</label><br>
+        <input type="checkbox" > <label for=""> Licença maternidade ou paternidade</label><br>
+        <input type="checkbox" > <label for=""> Pet Friendly</label><br>
+        <input type="checkbox" > <label for=""> Empréstimo Consignado</label><br>
+    </fieldset>
+
+        <fieldset>
+            <legend>Opinião sobre a Empresa</legend>
+            <label for="">Pontos positivos:</label><br>
+            <textarea name="Pros" id="pros" placeholder="Fale sobre pontos positivos..." cols="30"></textarea><br>
+
+            <label for="">Pontos negativos:</label><br>
+            <textarea name="Contras" id="contras" placeholder="Fale sobre pontos negativos..." cols="30"></textarea><br>
+
+    </fieldset>
+    <input type="submit" value="Enviar formulário">
+    
+    </form>
+</body>
+
+</html>
