@@ -5,51 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML06-Formulario</title>
 
+    <style>
+
+        
+
+        .fundo{
+            background-color: rgb(197, 197, 197);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        form{
+            background-color: rgb(219, 219, 219);
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        header{
+            text-align: center;
+        }
+
+        
+    </style>
 </head>
 <body>
+
     <header><h1><i> Formularios </i></h1></header>
 
-    <form action="">
+    <fieldset class="fundo">
 
-        <label for=""><b>Nome:</b></label>
-        <input type="text" placeholder="Insira o nome do usuario" class="inpPlace">
+    <form action="./boasVindas.html" target="_blank">
+
+        <fieldset>
+            <legend>Nome do usuario</legend>
+            <label for=""><b>Nome:</b></label>
+            
+        <input type="text" placeholder="Insira o nome do usuario" class="inpPlace" required>
+        </fieldset>
         
-        <br><br>
+        <fieldset>
+            <legend>Regiões</legend>
+
+            
+        <input type="radio" name="Estado" required>  <label for=""> São Paulo</label><br>
+        <input type="radio" name="Estado"> <label for=""> Rio de Janeiro</label><br>
+        <input type="radio" name="Estado"> <label for=""> Minas Gerais</label><br>
+        
+        <br>
+
         <caption><b>Cidade</b></caption> <br>
-        <input type="radio" name="Estado"> <label for=""> São Paulo</label><br>
-        <input type="radio" name="Estado"> <label for=""> Grande São Paulo</label><br>
-        <input type="radio" name="Estado"> <label for=""> Campinas</label><br>
-        <br>
-        
-        
-        <caption><b>Generos musicais</b></caption><br>
 
-        <input type="checkbox"> <label for="">Funk</label>
-        <br>
-        <input type="checkbox"> <label for="">Pagode</label>
-        <br>
-        <input type="checkbox"> <label for="">Metal</label>
-        <br>
-        <input type="checkbox"> <label for="">Trap</label>
-        <br><br>
-        <caption><b>Distancia</b></caption><br>
-        0 KM<input type="range">100 KM <br><br>
-
-
-        <caption><b>Cores</b></caption><br>
-
-        <select name="" id="">
-            <option value="Cores">Selecione</option>
-            <option value="Cores">Amarelo</option>
-            <option value="Cores">Branco</option>
-            <option value="Cores">Vermelho</option>
-        </select>
-
-        <br><br><br>
-
-        <caption><b>Cidades</b></caption><br>
-
-        <input type="text" list="busca">
+        <input type="text" list="busca" required>
         <datalist id="busca">
             
             <option value="Santos"></option>
@@ -59,11 +68,63 @@
 
         </datalist>
 
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Seus gostos</legend>
+
+            <caption><b>Generos musicais</b></caption><br>
+
+        <input type="checkbox" > <label for="">Funk</label>
+        <br>
+        <input type="checkbox"> <label for="">Pagode</label>
+        <br>
+        <input type="checkbox"> <label for="">Metal</label>
+        <br>
+        <input type="checkbox"> <label for="">Trap</label>
         <br><br>
+        
 
-        <input type="button" value="Enviar">
+        <caption><b>Cores</b></caption><br>
 
+        <select name="" id="" >
+            <option value="Cores">Selecione</option>
+            <option value="Cores">Amarelo</option>
+            <option value="Cores">Branco</option>
+            <option value="Cores">Vermelho</option>
+        </select>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Distancia</legend>
+
+            <caption><b>Distancia</b></caption><br>
+
+            0 KM<input type="range">100 KM <br><br>
+
+        </fieldset>
+        
+
+        <br>
+
+        <fieldset>
+
+            <legend>Comentario</legend>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+
+        </fieldset>
+        
+        <br><br><br>
+
+        <input type="submit" value="Enviar">
 
     </form>
+
+    </fieldset>
+
 </body>
 </html>
