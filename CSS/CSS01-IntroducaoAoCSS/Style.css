@@ -1,0 +1,20 @@
+ 
+ 
+    body {
+    background-color: rgb(97, 80, 80);
+    text-align: center;
+    }
+    
+    p{
+        color: rgb(137, 199, 199);
+
+    }
+
+    h1{
+        color: rgb(175, 255, 251);
+        background-color: darkcyan;
+        border-radius: 90px;
+        border-width: 10px;
+        padding: 10px;
+        color: white;
+        }
