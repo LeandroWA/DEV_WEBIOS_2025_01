@@ -1,0 +1,27 @@
+body{
+    background-color: #2b9eb3;
+}
+
+.T1{
+    text-shadow: 5px 5px 5px #287f8f;
+    font-size: 40px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+
+}
+
+section{
+    text-align: center;
+    
+}
+
+.txt1{
+    font-size: larger;
+    padding: 60px;
+    margin: 90px;
+    background-color:#bcd9a0;
+    text-align: left;
+}
+

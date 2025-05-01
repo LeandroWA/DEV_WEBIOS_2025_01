@@ -1,0 +1,50 @@
+body{
+    background-color: #949a8e;
+}
+
+h1{
+    text-shadow: 7px 7px 3px #7b8076;
+    color: #473d4b;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 900px;
+    text-align: center;
+}
+
+h2{
+    
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Conteudo{
+    padding: 20px;
+    margin: 150px;
+    background-color: #a5b5ab
+}
+
+p{
+    font-size: largerX
+}
+
+.p1{
+    margin-left: 30px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.p2{
+    margin-left: 60px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
