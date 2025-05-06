@@ -17,7 +17,7 @@ section{
     
 }
 
-.txt1{
+.SegTi{
     font-size: larger;
     padding: 60px;
     margin: 90px;
@@ -25,3 +25,13 @@ section{
     text-align: left;
 }
 
+*{
+ margin: 0;
+}
+
+div section{
+    text-align: center;
+    background-color: #90a77b;
+    margin-left: 650px;
+    margin-right: 650px;
+}
