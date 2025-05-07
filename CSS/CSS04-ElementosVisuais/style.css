@@ -1,0 +1,25 @@
+.P1{
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: outset;
+    padding: 6px;
+}
+
+.P2{
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-style: outset;
+    padding: 6px;
+}
+
+header{
+    text-align: center;
+}
+
+.T1{
+    text-align: center;
+}
+
+.T2{
+    text-align: center;
+}
