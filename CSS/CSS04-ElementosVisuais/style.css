@@ -1,13 +1,26 @@
+body{
+    /* background-color: #686466; */
+    
+    color: aliceblue;
+    background-image: url(./renderizacao-3d-de-fundo-de-textura-hexagonal.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
 .P1{
+    margin-left: 60px;
+    margin-right: 60px;
     border-width: 1px;
-    border-color: rgb(0, 0, 0);
-    border-style: outset;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
     padding: 6px;
 }
 
 .P2{
+    margin-left: 60px;
+    margin-right: 60px;
     border-width: 1px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
     border-style: outset;
     padding: 6px;
 }
@@ -22,4 +35,16 @@ header{
 
 .T2{
     text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+.Fundo{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    border-radius: 50px;
 }
