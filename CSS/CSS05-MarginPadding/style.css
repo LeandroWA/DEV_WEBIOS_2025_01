@@ -1,0 +1,39 @@
+body{
+    background-color: #473469;
+}
+
+h1{
+    color: #f2e7d2;
+    text-shadow: 5px 4px 4px #372950;
+    text-align: center;
+    margin-right: 600px;
+    margin-left: 600px;
+    border-radius: 50px;
+    font-family: "Cascadia Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.Div1{
+    border: 1px black solid;
+    background-color: #ae8fba;
+    margin-bottom: 25px;
+}
+
+.P1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Div2{
+    border: 1px solid black;
+    padding: 50px;
+}
+
+img{
+    height: 250px;
+    width: 400px;
+    
+    
+}
