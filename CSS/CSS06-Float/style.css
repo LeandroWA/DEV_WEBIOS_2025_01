@@ -1,0 +1,33 @@
+.Divs{
+    border: 2px solid black;
+    clear: both;
+    height: 400px;
+    margin-bottom: 30px;
+    padding: 5%;
+    }
+
+.imgSoraia{
+    height:  400px;
+    width: 300px;
+    float: left;
+    margin-right: 40px;
+    
+}
+
+.imgNarutinho{
+    width: 500px;
+    float: right;
+    margin-left: 40px;
+}
+
+.bomDeGuerra{
+    width: 515px;
+}
+
+.versus{
+
+}
+
+.srCavalos{
+
+}

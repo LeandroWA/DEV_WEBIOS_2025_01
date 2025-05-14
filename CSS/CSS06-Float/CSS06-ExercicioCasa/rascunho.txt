@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Aula 06</title>
+</head>
+<body>
+    <header><h1>Float display e Pseudoclasses</h1></header>
+
+    <div>
+        <figure class="Kratos">
+        <img src="./IMG/KRATOS.webp" alt="" style= "width: 400px; height= 400px; float: left;">
+        
+        </figure>
+
+        <p><h2>O Kratos</h2>
+            Kratos é o protagonista da série God of War, desenvolvida pela Santa Monica Studio e publicada pela Sony Interactive Entertainment. Ele é um dos personagens mais icônicos dos videogames, conhecido por sua fúria intensa, força sobre-humana e um passado trágico marcado por traição e vingança.</p>
+
+        <p class="p1">
+            <h2>Descrição de Kratos</h2>
+            Nome completo: Kratos <br>
+            Origem: Esparta, Grécia Antiga <br>
+            Espécie: Semideus (mais tarde, deus da guerra) <br>
+            Armas icônicas: Lâminas do Caos, Machado Leviatã, Escudo Guardião <br>
+            Personalidade: Sombria, séria, determinada, marcada pela culpa e pelo desejo de redenção
+        </p>
+
+        <p class="aparencia"><h2>Aparência física</h2>
+            Kratos é facilmente reconhecível por sua pele pálida como cinzas — resultado de uma maldição após matar sua esposa e filha. Tem uma cicatriz proeminente no rosto, olhos intensos, e um físico musculoso e imponente. Ele carrega tatuagens vermelhas, inicialmente como marca espartana, e mais tarde como símbolo de sua dor.</p>
+
+        <p style="clear: both;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis fugit unde omnis, quae dolor est incidunt, eos iste eaque tenetur ipsa consequatur impedit, assumenda fuga dignissimos dolorum aliquid culpa facere.</p>
+        
+    </div>
+</body>
+</html>
