@@ -1,0 +1,66 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Container principal */
+.Divs {
+    background-color: #fff;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagens específicas */
+.imgSoraia, .imgNarutinho, .bomDeGuerra, .srCavalos, .versus {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table td:first-child {
+    font-weight: bold;
+    width: 40%;
+    color: #555;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .imgSoraia, .imgNarutinho, .bomDeGuerra, .srCavalos, .versus {
+        max-width: 100%;
+    }
+}
