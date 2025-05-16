@@ -1,0 +1,24 @@
+body{
+    background-color: #d7dacf;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.itens{
+    border: 1px solid black;
+    background-color: #bec3bc;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.container{
+    /* Vou trabalhar com flexbox */
+    display: flex;
+    flex-direction:row ;
+    /* Evitar o overflow / evitar que o conteudo ultrapasse a largura da tela */
+    flex-wrap: wrap;
+}
