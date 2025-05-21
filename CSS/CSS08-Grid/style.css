@@ -1,0 +1,13 @@
+body{
+    background-color: #f7efd8;
+}
+.container{
+    border: 1px solid #556270;
+}
+
+.itens{
+    width: 15%;
+    height: 50px;
+    border: 1px solid #273142;
+    font-size: 150%;
+}
