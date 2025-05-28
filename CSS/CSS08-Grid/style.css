@@ -3,11 +3,14 @@ body{
 }
 .container{
     border: 1px solid #556270;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    grid-template-rows: 50px 50px;
 }
 
 .itens{
-    width: 15%;
-    height: 50px;
+    /* width: 15%;
+    height: 50px; */
     border: 1px solid #273142;
     font-size: 150%;
 }
