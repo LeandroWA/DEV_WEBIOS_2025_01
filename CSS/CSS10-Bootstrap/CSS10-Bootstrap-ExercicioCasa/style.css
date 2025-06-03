@@ -1,0 +1,35 @@
+body {
+    background-color: #eef2f3;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse:collapse;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 4px 12px rgb(63, 63, 63);
+}
+
+th, td {
+    padding: 10px 12px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+tbody tr:hover {
+    background-color: #e0f7e9;
+    transition: background-color 0.2s ease-in-out;
+}
