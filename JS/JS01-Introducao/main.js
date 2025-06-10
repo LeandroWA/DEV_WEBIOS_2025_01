@@ -84,3 +84,22 @@ console.log(temCamisa == true && temCracha == true)
 console.log(temCamisa == true || temCracha == true)
              //    false      ou          true = true
 console.log(!(temCamisa == true && temCracha == true))
+
+
+//Operador de atribuição
+var x = 3
+var y = 2
+x = x + y
+//x += y ⬇Formato contraido⬇
+//x = 3 + 2
+console.log (x)
+
+x = 720
+console.log(x);
+
+console.clear()
+console.error("Sai intruso")
+console.warn("olha vc ai dnv")
+
+console.log("Está tudo limpo")
+console.log("Olá mundo")
