@@ -1,21 +1,153 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Calculadora de Média</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mente Rica</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f0;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #014421;
+      font-weight: bold;
+    }
+
+    .carousel-inner {
+      display: flex;
+      overflow: hidden;
+      width: 100%;
+      height: 500px;
+      position: relative;
+    } 
+
+     .carousel-inner {
+      align-items:center;
+      min-width: 100%;
+      transition: transform 1s ease;
+      object-fit: cover;
+    } 
+
+    .section-title {
+      text-align: center;
+      font-size: 24px;
+      color: #014421;
+      margin: 30px 0 10px;
+    }
+
+    .noticias {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .noticia-card {
+      background-color: #fff;
+      border-radius: 10px;
+      width: 30%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .noticia-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .noticia-card p {
+      padding: 15px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    @media (max-width: 768px) {
+      .noticia-card {
+        width: 100%;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h2>Calcular média do aluno</h2>
-  <form id="formNotas">
-    Nota 1: <input type="number" step="0.1" id="nota1"><br>
-    Nota 2: <input type="number" step="0.1" id="nota2"><br>
-    Nota 3: <input type="number" step="0.1" id="nota3"><br>
-    Nota 4: <input type="number" step="0.1" id="nota4"><br><br>
-    <button type="submit">Calcular Média</button>
-  </form>
+  <header>
+    <img src="https://via.placeholder.com/100x50?text=Logo" alt="Mente Rica" />
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Quem Somos</a>
+      <a href="#">Cursos</a>
+      <a href="#">Login</a>
+    </nav>
+  </header>
 
-  <p id="resultado"></p>
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./educacao-financeira.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./educacao-financeira.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./orcamento-familiar-1.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-  <script src="./main.js"></script>
+  <h2 class="section-title">Últimas Notícias</h2>
+  <div class="noticias">
+    <div class="noticia-card">
+      <img src="https://via.placeholder.com/400x200" alt="Notícia 1" />
+      <p>Título e descrição breve da notícia sobre finanças pessoais.</p>
+    </div>
+    <div class="noticia-card">
+      <img src="https://via.placeholder.com/400x200" alt="Notícia 2" />
+      <p>Nova medida financeira ajuda jovens a poupar mais cedo.</p>
+    </div>
+    <div class="noticia-card">
+      <img src="https://via.placeholder.com/400x200" alt="Notícia 3" />
+      <p>5 dicas simples para começar a investir ainda na escola.</p>
+    </div>
+  </div>
+ 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  <!-- <script>
+    // Carrossel automático
+    const carousel = document.getElementById('carousel');
+    let index = 0;
+    setInterval(() => {
+      index = (index + 1) % 3;
+      carousel.style.transform = `translateX(-${index * 100}%)`;
+    }, 3000);
+  </script> 
 </body>
 </html>
