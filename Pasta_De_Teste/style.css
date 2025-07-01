@@ -1,0 +1,555 @@
+body {
+    background-color: #084F55;
+}
+
+.navbar-custom {
+    background-color: #FFF4D1;
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: auto;
+}
+
+.navbar-custom .container {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.nav-link {
+    color: #004d40;
+    font-weight: bold;
+    margin-left: 6px;
+
+}
+
+.nav-link:hover {
+    color: #00796b;
+}
+
+.imagemFundo {
+    background-image: url(/IMG/);
+    /* Substitua pela sua imagem */
+    background-size: cover;
+    /* cobre toda a largura */
+    background-position: center;
+    /* centraliza a imagem */
+    background-repeat: no-repeat;
+    /* não repete a imagem */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#textoImagem{
+   font-size: 4em;
+   font-weight: 800;
+   text-shadow: #636363 5px 5px 10px;
+   font-family: "Libertinus Math", system-ui;
+   font-weight: 400;
+   font-style: inherit;
+}
+
+/* textos  */
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 10px;
+  height: 40rem;
+  
+}
+  
+.div1Eficaz {
+  color: white;
+  grid-column: span 4 / span 4;
+  grid-row: span 3 / span 3;
+  
+  text-align: center;
+}
+
+/* ⬇ Imagem ⬇ */
+.div2Eficaz {
+  grid-column: span 2 / span 2;
+  grid-row: span 3 / span 3;
+  grid-column-start: 5;
+  align-self: end;
+}
+
+.CriançasLivros{
+  height: 23rem;
+  width: auto;
+  margin-left: 5rem;
+}
+/* ⬆ Imagem ⬆ */
+
+.div3 {
+  grid-column: span 2 / span 2;
+  grid-row: span 3 / span 3;
+  grid-row-start: 4;
+}
+
+.GarotoLendo{
+  height: 18rem;
+  width: auto;
+}
+
+.div4 {
+  color: white;
+  grid-column: span 4 / span 4;
+  grid-row: span 3 / span 3;
+  grid-column-start: 3;
+  grid-row-start: 4;
+}
+
+/* footer */
+
+.footer {
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+  }
+  
+  /* Parte superior do footer */
+  .footer-top {
+    background-color: #FFF4D1;
+    padding: 20px 20px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    justify-content: end;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  /* Colunas */
+  .footer-column {
+    flex: 1;
+    min-width: 220px;
+    margin-bottom: 20px;
+  }
+
+  /* Logo footer */
+#logo-footer{
+    height: 200px;
+    width: 200px;
+}
+
+  .column2{
+    justify-self: center;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #003366;
+    display: inline-block;
+    padding-bottom: 4px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-column a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .footer-column p {
+    margin: 8px 0;
+    color: #000;
+  }
+  
+  /* Ícones sociais */
+  .social-icons i {
+    font-size: 24px;
+    color: #000;
+    margin-right: 12px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons i:hover {
+    color: #555;
+  }
+  
+  .icon-circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  /* Botão voltar ao topo */
+  .back-to-top {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #000;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .back-to-top:hover {
+    background-color: #333;
+  }
+  
+  /* Rodapé inferior */
+  .footer-bottom {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+/* Seção dos Módulos */
+.modulos-section {
+  background-color: #FFF5D7;
+  padding: 60px 20px;
+  margin: 40px 0;
+}
+
+.container-modulos {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  align-items: stretch;
+}
+
+.modulo {
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.modulo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.modulo-imagem {
+  margin-bottom: 20px;
+  flex-shrink: 0;
+}
+
+.modulo-imagem img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.modulo-conteudo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.modulo-conteudo h3 {
+  color: #084F55;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: "Libertinus Math", system-ui;
+}
+
+.modulo-conteudo p {
+  color: #333;
+  line-height: 1.6;
+  font-size: 1rem;
+  flex: 1;
+}
+
+/* Melhorias na responsividade geral */
+.textosTitulo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Libertinus Math", system-ui;
+}
+
+.Aprender {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 40px;
+    padding: 20px;
+  }
+  
+  .div1Eficaz {
+    order: 1;
+    grid-column: unset;
+    grid-row: unset;
+    margin-bottom: 30px;
+  }
+  
+  .div2Eficaz {
+    order: 2;
+    grid-column: unset;
+    grid-row: unset;
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    gap: 20px;
+    align-items: start;
+    margin-bottom: 40px;
+  }
+  
+  .div3 {
+    order: 4;
+    grid-column: unset;
+    grid-row: unset;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 20px;
+    align-items: start;
+    margin-bottom: 40px;
+  }
+  
+  .div4 {
+    order: 3;
+    grid-column: unset;
+    grid-row: unset;
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    gap: 20px;
+    align-items: start;
+    margin-bottom: 40px;
+  }
+  
+  .CriançasLivros {
+    height: 100px;
+    width: auto;
+    margin: 0;
+    grid-column: 2;
+    justify-self: center;
+  }
+  
+  .GarotoLendo {
+    height: 100px;
+    width: auto;
+    margin: 0;
+    grid-column: 1;
+    justify-self: center;
+  }
+  
+  .div2Eficaz .textosTitulo,
+  .div2Eficaz p {
+    grid-column: 1;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .div4 .textosTitulo,
+  .div4 p {
+    grid-column: 1;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .textosTitulo {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .div2Eficaz p,
+  .div4 p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  
+  #textoImagem {
+    font-size: 2.2rem;
+  }
+  
+  .footer-top {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .modulos-section {
+    padding: 40px 15px;
+  }
+  
+  .container-modulos {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .modulo-conteudo h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .textosTitulo {
+    font-size: 1.2rem;
+  }
+  
+  #textoImagem {
+    font-size: 1.8rem;
+  }
+  
+  .modulo {
+    padding: 20px;
+  }
+  
+  .modulo-imagem img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .navbar-brand img {
+    width: 60px;
+  }
+  
+  .CriançasLivros, .GarotoLendo {
+    height: 80px;
+  }
+  
+  .div2Eficaz p,
+  .div4 p {
+    font-size: 0.8rem;
+  }
+  
+  .container {
+    gap: 30px;
+    padding: 15px;
+  }
+  
+  .div2Eficaz, .div3, .div4 {
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .div2Eficaz {
+    grid-template-columns: 1fr 80px;
+  }
+  
+  .div3 {
+    grid-template-columns: 80px 1fr;
+  }
+  
+  .div4 {
+    grid-template-columns: 1fr 80px;
+  }
+}
+
+  @media(max-width: 375px){
+    .nav-link {
+      color: #004d40;
+      font-weight: bold;
+      margin-left: 6px;
+
+  }
+    
+    .div1Eficaz {
+      color: white;
+      text-align: center;
+      font-size: 30px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      gap: 10px;
+      height: 60rem;
+      
+    }
+
+    .footer-column {
+      flex: 1;
+      min-width: 220px;
+      margin-bottom: 20px;
+      font-size: 22px;
+      }
+
+      .footer-column h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #003366;
+        display: inline-block;
+        padding-bottom: 4px;
+      }
+
+    .CriançasLivros{
+      height: 30rem;
+      width: auto;
+      margin-left: 0rem;
+    }
+    
+    .div4 {
+      color: white;
+      grid-column: span 4 / span 4;
+      grid-row: span 3 / span 3;
+      grid-column-start: 3;
+      grid-row-start: 4;
+      font-size: 30px;
+    }
+
+    .GarotoLendo{
+      height: 18rem;
+      width: auto;
+    }
+
+    .div3 {
+      grid-column: span 2 / span 2;
+      grid-row: span 3 / span 3;
+      grid-row-start: 4;
+    }
+
+    .navbar-nav{
+      align-items: flex-end;
+    }
+
+    .navbar-brand img {
+      width: 130px;
+      height: auto;
+  }
+
+  .textosTitulo{
+    font-size: 40px;
+  }
+  }
